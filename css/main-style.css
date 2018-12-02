@@ -45,13 +45,92 @@ header{
 }
 .menu>li{
   color: #ffffff;
-  font-family: "Open Sans - Semibold";
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
   margin-left: 47px;
   display: inline;
+}
+
+.menu>li>a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.menu>li>a:hover{
+  color: #9a9a9a;
+  transition: all.3s ease;
 }
 
 .trial-form{
   height: 641px;
   width: 100%;
   background-color: #9a9a9a;
+}
+
+.trial-main{
+  margin: auto;
+  width: 1108px;
+  height: 398px;
+  padding: 110px 142px 0px 150px;
+}
+
+.left-side{
+  float: left;
+  width: 512px;
+  height: 100%;
+}
+
+.left-side>#main-text>span{
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 34px;
+  font-weight: 400;
+}
+
+.left-side>#main-text{
+  float: left;
+  width: 512px;
+  height: 70px;
+}
+
+#text{
+  float: left;
+  width: 100%;
+  height: 61px;
+  padding-bottom: 44px;
+}
+
+#text>span{
+  float: left;
+  opacity: 0.6;
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 23px;
+}
+
+#trial-img{
+  float: left;
+  width: 100%;
+  padding-bottom: 33px;
+}
+
+#trial-line{
+  float: left;
+  padding-top: 36px;
+  padding-bottom: 30px;
+}
+
+#download-button{
+  float: left;
+  width: 135px;
+  height: 42px;
+  border: 2px solid white;
+}
+
+.right-side{
+  float: left;
+  width: 596px;
+  height: 100%;
 }
