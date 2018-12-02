@@ -27,7 +27,7 @@ header{
 #logo{
   width: 79px;
   height: 27px;
-  padding: 23px 0px 0px 150px;
+  padding: 23px 0px 0px 0px;
 
 }
 
@@ -35,7 +35,7 @@ header{
   float: right;
   width: 500px;
   height: 72px;
-  padding-right: 148px;
+  padding-right: 0px;
 }
 
 .menu{
@@ -64,6 +64,7 @@ header{
 .trial-form{
   height: 641px;
   width: 100%;
+  min-width: 1400px;
   background-color: #9a9a9a;
 }
 
@@ -135,8 +136,9 @@ header{
 }
 
 #download-button:hover{
-  background-color: ;
-  transition: all.3s ease;
+  background-color: #ffffff;
+  transition: all.8s ease;
+  color: #000000;
 }
 
 .right-side{
